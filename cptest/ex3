@@ -1,0 +1,5 @@
+echo "current directory is `pwd`"
+echo "home directory is $HOME"
+echo "file*.?"
+echo "directory '$HOME'"
+

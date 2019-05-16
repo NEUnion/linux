@@ -1,0 +1,25 @@
+Producer put number 1 to NO.0
+Producer put number 2 to NO.1
+Producer put number 3 to NO.2
+Producer put number 4 to NO.3
+Producer put number 5 to NO.4
+The ComsumerA get number from NO.0
+The ComsumerB get number from NO.1
+Producer put number 6 to NO.0
+Producer put number 7 to NO.1
+The ComsumerA get number from NO.2
+Producer put number 8 to NO.2
+The ComsumerB get number from NO.3
+Producer put number 9 to NO.3
+The ComsumerA get number from NO.4
+Producer put number 10 to NO.4
+The ComsumerB get number from NO.0
+The ComsumerA get number from NO.1
+The ComsumerB get number from NO.2
+The ComsumerA get number from NO.3
+The ComsumerB get number from NO.4
+Producer is over
+ConsumerA is over
+ConsumerB is over
+Sum is 55
+

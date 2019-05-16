@@ -1,0 +1,11 @@
+#!/bin/bash
+#test_express
+echo "input a string:"
+read str
+if echo "$str" | grep 'lxm' &>/dev/null
+then
+  echo "haha, I am here, I am ${str}"
+else
+  echo "I am not here"
+fi
+exit

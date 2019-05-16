@@ -1,0 +1,27 @@
+#!/bin/bash
+echo -n "Please type in a file name to store the total number of filesize:"
+read fname
+
+if [ $# -le 1 ]
+then
+  echo "error input, filename is needed"
+elif [ -f $fname ]
+then
+  fcount=0;
+  for name
+    do
+      if [ -f $name ]
+        then
+          fsize=`cat $fname|wc -c`
+          ((fcount=$fcount+$fsize))
+       else
+         echo "error filename $name"
+       fi
+     done
+
+    echo "The total number of filesize is $fcount bytes"
+    echo $fcount > $fname
+else
+  echo "error directory name!"
+fi
+

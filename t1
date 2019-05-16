@@ -1,0 +1,6 @@
+#!/bin/bash
+fsize=20
+let a=fsize+30
+#((a=$fsize+30))
+echo $a
+

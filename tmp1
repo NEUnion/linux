@@ -1,0 +1,2 @@
+lxm:x:1000:1000:lxm,,,:/home/lxm:/bin/bash
+lxm2:x:1001:1001::/home/lxm2:/bin/sh

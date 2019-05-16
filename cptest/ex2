@@ -1,0 +1,12 @@
+#!/bin/bash
+# If no arguments, then listing the current directory.
+# Otherwise, listing each subdirectory.
+
+if test $#=0
+then ls .
+else
+  for i
+    do
+      ls -l $i | grep '^d'
+    done
+fi
